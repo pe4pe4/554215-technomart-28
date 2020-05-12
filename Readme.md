@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Никита Кучин ](https://up.htmlacademy.ru/htmlcss/28/user/554215).
-* Наставник: `[Олеся Севостьянова]`(https://htmlacademy.ru/profile/id498579).
+* Наставник: [Олеся Севостьянова](https://htmlacademy.ru/profile/id498579).
 
 ---
 
