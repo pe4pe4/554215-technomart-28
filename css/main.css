@@ -14,12 +14,8 @@ ul{
 }
 /* header */
 
-.header, a{
+.header a{
   text-decoration: none;
-  color: white;
-}
-.header-nav a{
-text-decoration: none;
   color: white;
 }
 .header{
@@ -171,17 +167,202 @@ margin-bottom: 25px;
 
 /* info and contact */
 
+main a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.section-website{
+  width: 940px;
+  height: 409px;
+  margin: auto;
+  margin-top: 59px;
+  margin-bottom: 59px;
+}
+.carts-wrap{
+  display: flex;
+}
+.carts-inner{
+display: flex;
+margin-top: 20px;
+}
+.carts-wrap-right{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-materials{
+width: 300px;
+height: 123px;
+background: #FFBF47;
+margin-right: 20px;
+}
+.section-tool{
+width: 300px;
+height: 123px;
+background: #3BBCE3;
+margin-right: 20px;
+}
+.section-technics{
+width: 300px;
+height: 123px;
+background: #DC91D8;
+}
+.section-sale{
+  width: 300px;
+height: 123px;
+background: #8ED78F;
+}
+.section-Delivery{
+  width: 300px;
+height: 123px;
+  background:#FFC047;
+}
+.popular-goods{
+  width: 940px;
+  height: 427px;
+  margin: auto;
+
+}
+.goods{
+  display: flex;
+  justify-content: space-between;
+}
+.popular-goods-header{
+  height: 89px;
+  background-color: #F9F5F0;
+  display: flex;
+  align-items: center;
+}
+.popular-goods-header-box{
+width: 900px;
+height: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+}
+.goods-title{
+  font-family: 'Cuprum';
+  font-size: 30px;
+}
+.all-goods-button{
+  width: 192px;
+  height: 38px;
+  font-family: 'Cuprum';
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #EE3643 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.manufacturers{
+  width: 940px;
+  margin: auto;
+}
+.manufacturers-header{
+  height: 89px;
+  background: #F9F5F0;
+  align-items: center;
+justify-content: center;
+}
+.all-manufacturers{
+  width: 192px;
+  height: 38px;
+  background-color: #EE3643;
+  font-size: 14px;
+  font-family: 'Cuprum';
+  color: #FFFFFF;
+}
+.manufacturers-header-box{
+  width: 893px;
+  height: 38px;
+   display: flex;
+  justify-content: space-between;
+
+}
+.manufacturers-title{
+
+font-family: 'Cuprum';
+font-size: 30px;
+line-height: 30px;
+
+}
+.manufacturers-list{
+  margin-top: 20px;
+  margin-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.manufacturers-header p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.manufacturers-logo{
+  width: 220px;
+  height: 145px;
+  margin-bottom: 44px;
+}
+.manufacturers-logo:hover{
+  box-shadow: 0 0 10px;
+}
+.services{
+  width: 100%;
+  background: #F1F5F7;
+}
+.services-content{
+height: 522px;
+width: 940px;
+margin: auto;
+padding-top: 64px;
+
+}
+.services-description{
+  width: 619px;
+  height: 283px;
+  display: flex;
+  justify-content: space-between;
+}
+.service-image{
+  display: block;
+}
+ .delivery{
+   position: absolute;
+   width: 468px;
+   height: 261px;
+ }
 .info{
   width: 479px;
  height: 150px;
  font-size: 13px;
 }
+.services-body h1{
+padding-top: 64px;
+padding-bottom: 25px;
+}
+.services-nav{
 
+}
+.services-body{
+  display: flex;
+  justify-content: space-around;
+}
+.services-button{
+  width: 240px;
+  height: 60px;
+  background: #32425C;
+}
 .contact-title{
   text-transform: uppercase;
   font-size: 30px;
 }
-.contact-bottom{
+.contact-button{
   text-transform:uppercase;
   font-family: 'Cuprum';
   width: 300px;
@@ -201,6 +382,7 @@ margin-bottom: 25px;
   line-height: 24px;
   margin-bottom:32px ;
 }
+
 
 /* footer */
 
@@ -340,6 +522,8 @@ display: flex;
 margin: auto;
 }
 .breadcrumbs{
-  display: inline;
-  color: #000;
+  width: 463px;
+  height: 18px;
+  display: flex;
+  justify-content: space-around;
 }
